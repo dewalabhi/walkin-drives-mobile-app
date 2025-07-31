@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "name": "Backend",
+      "path": "./backend"
+    },
+    {
+      "name": "Mobile",
+      "path": "./mobile"
+    }
+  ],
+  "settings": {
+    "terminal.integrated.cwd": "./",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.git": true,
+      "**/build": true,
+      "**/dist": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.vscode-json",
+      "bradlc.vscode-tailwindcss",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-typescript-next",
+      "msjsdiag.vscode-react-native"
+    ]
+  }
+}
