@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema({
     required: true
   },
   
+  // Password reset fields
+  resetPasswordToken: String,
+  resetPasswordExpires: Date,
+  
   // Company fields
   companyName: String,
   companyDescription: String,
